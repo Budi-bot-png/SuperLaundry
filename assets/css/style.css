@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+.logo {
+	width: 48px;
+}
+
+.logo-lg {
+	width: 64px;
+}
+
+.illustration {
+	display: block;
+	width: 75%;
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.icon-nav {
+	min-width: 18px;
+	text-align: center;
+}
+
+.actions {
+	min-width: 60px;
+}
+
+.action-icons a i {
+	min-width: 28px;
+}
+
+.control-label {
+	font-size: 0.8rem;
+	margin-left: 12px;
+}
+
+.invalid-feedback {
+	margin-left: 12px;
+}
+
+.form-group input {
+	border-radius: 20px;
+}
+
+.alert-container {
+	width: 70%;
+	margin: auto;
+}
+
+@media (max-width: 768px) { 
+	.alert-container {
+		width: 100%;
+		margin: auto;
+	}
+
+	.illustration {
+		width: 90%;
+		text-align: center;
+	}
+}
